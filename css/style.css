@@ -1,0 +1,595 @@
+/* RESET STYLES */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {  
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; 
+}
+
+ HTML5 reset 
+article,
+aside,
+details,
+figcaption,
+figure, 
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, 
+blockquote:after,
+q:before, 
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a { 
+	margin: 0; 
+	padding: 0; 
+	font-size: 100%; 
+	vertical-align: baseline; 
+	background: transparent; 
+}
+
+a:hover,
+a:active { 
+	outline: none; 
+    text-decoration: none;
+}
+
+select,
+input,
+button,
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+section {
+    color: #000;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+h4 {
+   font-size: 16px; 
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+h5 {
+    color: #aa8c67;
+    margin-bottom: 10px;
+}
+
+.btn, 
+.logo a:hover, .btn:hover, 
+.logo a:focus, .btn:focus,
+.logo a:visited, .btn:visited {
+    color: #fff;
+}
+
+.video-bg {
+    overflow: hidden;
+}
+
+#video {
+    position: fixed;
+    top: 160px;
+    left: 50%;
+    right: 50%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    transition: 1s opacity;
+}
+
+header, 
+.welcome {
+    color: #fff;
+}
+
+.welcome {
+    height: 590px;
+}
+
+header .container {
+    border-bottom: 2px solid rgba(255,255,255, 0.6);
+    line-height: 90px;
+}
+
+.logo {
+    font-size: 2em;
+    margin-top: 5px;
+}
+
+header a {
+    color: #fff;
+}
+
+.menu {
+    display: none;
+}
+
+.nav {
+   font-size: 13px; 
+}
+
+.navbar-right {
+    margin-right: 15px;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus,
+.nav>li>a:visited {
+    background: none;
+}
+
+.left-menu {
+    position: fixed;
+    width: 250px;
+    left: -250px;
+    height: 100%;
+    background: #323232;
+}
+
+.left-menu-btn {
+    width: 22px;
+    height: 22px;
+    margin-left: 15px;
+}
+
+.left-menu nav {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 215px;
+}
+
+.close-menu {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 0;
+    width: 18px;
+    height: 18px;
+    z-index: 100;
+}
+
+.left-menu .white-items li:last-child {
+    padding: 15px 0 20px 0;
+}
+
+.left-menu nav ul:last-child {
+    margin-top: 20px;
+}
+
+.white-items>li>a {
+    padding: 10px 20px;
+}
+
+.grey-items>li>a {
+    padding: 3px;
+}
+
+.white-items>li>a:hover, 
+.white-items>li>a:focus, 
+.white-items>li>a:visited {
+    color: #fff;
+}
+
+.grey-items>li>a,
+.grey-items>li>a:hover, 
+.grey-items>li>a:focus, 
+.grey-items>li>a:visited {
+    color: #5d5d5d;
+}
+
+.btn-green {
+    background: #7dac3f;
+    padding: 15px 27px;
+    margin-top: 20px;
+    border-radius: 7px
+}
+
+.main-heading {
+    width: 430px;
+    margin: 120px auto 0;      
+}
+
+h1 {
+    font-size: 38px;
+    line-height: 1.3em;
+}
+
+.main-heading p {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+
+.input-group {
+    margin: auto;
+    padding-top: 45px;
+}
+
+.input-group input {
+    background: url(../images/placeholder-img.svg) 10px no-repeat #fff;
+    background-size: 20px;
+    padding: 0px 40px;
+}
+
+.input-group-btn .btn {
+    background: #aa8c67;
+    border: 1px solid #aa8c67;
+    padding: 0 70px;
+}
+
+.input-group input,
+.input-group-btn .btn {
+    height: 55px;
+}
+
+.form-control {
+    font-size: 16px;
+}
+
+:focus::-webkit-input-placeholder {color: transparent;}
+:focus::-moz-placeholder {color: transparent;}
+:focus:-moz-placeholder {color: transparent;}
+:focus:-ms-input-placeholder {color: transparent;}
+
+/* убираем свечениe */
+
+.form-contol:focus {
+    border: 1px solid: #fff;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: 0 auto -webkit-focus-ring-color;
+  outline-offset: 0;
+}
+
+.btn:active,
+.btn.active {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.arrow-down {
+    width: 15px;
+    position: absolute;
+    bottom: 0;
+}
+
+.advantages {
+    background: #fff;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    z-index: 10;  
+}
+
+.advantages .row {
+    margin-top: 50px;
+}
+
+.advantages p,
+.create-your-plan p,
+.reviews p {
+    color:  #a8a8a8;
+}
+
+.advantages p {
+    padding: 5px 50px; 
+}
+
+.circle-waves {
+    padding: 65px;
+    background: url(../images/poligon.png) center no-repeat;
+}
+
+.circle-waves img {
+    height: 55px;
+}
+
+.create-your-plan,
+.guidance {
+    background: #f5f5f5;
+    padding-top: 60px;
+}
+
+.frame {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.create-your-plan .row {
+    margin-top: 60px
+}
+
+.create-your-plan img {
+    height: 65px;
+    margin: 35px 0 25px;
+}
+
+.create-your-plan p {
+    color:  #a8a8a8;
+    padding: 5px 80px 40px;
+}
+
+.create-your-plan .btn-green {
+    margin: 65px 0 95px;
+    padding: 20px 70px;
+}
+
+.reviews {
+    background-color: #fff;
+    padding-top: 45px;
+}
+
+.reviews .row {
+    margin-top: 60px;
+}
+
+.reviews p,
+.guidance p{
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 1.6em;
+}
+
+.fa-lg {
+    font-size: 1.2222em;
+}
+
+.fa-star {
+    color: #fac917;
+}
+
+.stars .list-inline {
+    padding-left: 5px;
+}
+
+.stars li {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.switch {
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+.switch li{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.fa-circle {
+    font-size: 0.7em;
+}
+
+.active .fa-circle {
+    color: #b0b0b0;
+}
+
+.inactive .fa-circle {
+    color: #d6d6d6;
+}
+
+.guidance h2 {
+    margin-top: 10px;
+    font-size: 28px;   
+}
+
+.guidance .row {
+    margin-top: 55px;
+    margin-bottom: 110px;
+}
+
+.guidance h3 {
+    padding-top: 10px
+}
+
+.guidance p {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.data, .copyright {
+    font-size: 12px;
+    color:  #a8a8a8;
+}
+
+footer {
+    background: #323232;
+    color: #fff;
+}
+
+footer .row {
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+footer h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #fff;
+    line-height: 2.5em;
+}
+
+footer a:hover {
+    color: #aa8c67
+}
+
+@media only screen and (min-width: 320px) {   
+    .input-group {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 770px) { 
+    .input-group {
+        width: 650px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .menu {
+        display: block;
+    }
+    
+    .left-menu, .left-menu-btn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .btn-green {
+        padding: 15px 25px;
+        margin-right: 15px;
+    }
+    
+    .create-your-plan .btn-green {
+        margin: 35px 0 55px;
+        padding: 15px 45px;
+    }
+
+    .navbar-right {
+        margin-right: 0;
+    }
+    
+    .white-items>li>a {
+        padding: 7px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+    
+    h2 {
+        font-size: 28px;
+    }
+    
+    h3 {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    
+    p {
+        font-size: 13px; 
+    }
+    
+    .logo a {
+        margin-left: 20px;
+    }
+    
+    .main-heading {
+        margin-top: 130px;
+        line-height: 1.2;
+    }
+    
+    .advantages {
+        padding-top: 90px;
+    }
+    
+    .advantages .row {
+        margin-top: 50px;
+    }
+    
+    .create-your-plan, .guidance {
+        padding-top: 55px;
+    }
+    
+    .create-your-plan .row {
+        margin-top: 80px;
+    }
+    
+    .create-your-plan img {
+        margin-top: 30px;
+    }
+    
+    .frame {
+        min-height: 280px;
+    }
+    
+    .advantages p {
+       padding: 5px 0; 
+    }
+    
+    .create-your-plan p {
+        padding: 5px 0  40px; 
+    }
+    
+    .reviews {
+        padding-top: 90px;
+    }
+    
+    .reviews h3 {
+        font-size: 30px;
+    }
+    
+}
