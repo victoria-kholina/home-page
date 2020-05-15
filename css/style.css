@@ -184,7 +184,6 @@ header a {
 .left-menu-btn {
     width: 22px;
     height: 22px;
-    margin-left: 15px;
 }
 
 .left-menu nav {
@@ -236,12 +235,15 @@ header a {
 .btn-green {
     background: #7dac3f;
     padding: 15px 27px;
-    margin-top: 20px;
+	margin-top: 10px;
     border-radius: 7px
 }
 
+.btn-green:hover {
+	background: #aa8c67;
+}
 .main-heading {
-    width: 430px;
+    max-width: 430px;
     margin: 120px auto 0;      
 }
 
@@ -271,8 +273,9 @@ h1 {
 .input-group-btn .btn {
     background: #aa8c67;
     border: 1px solid #aa8c67;
-    padding: 0 70px;
+    padding: 0 20px;
 }
+
 
 .input-group input,
 .input-group-btn .btn {
@@ -386,7 +389,7 @@ h1 {
 }
 
 .reviews .row {
-    margin-top: 60px;
+    margin: 60px 0;
 }
 
 .reviews p,
@@ -446,7 +449,7 @@ h1 {
 }
 
 .guidance h3 {
-    padding-top: 10px
+    padding: 20px 0 10px;
 }
 
 .guidance p {
@@ -489,11 +492,25 @@ footer a:hover {
     }
 }
 
-@media only screen and (min-width: 770px) { 
+@media only screen and (min-width: 768px) { 
     .input-group {
         width: 650px;
     }
+	.input-group-btn .btn {
+    padding: 0 70px;
+	}
 }
+@media only screen and (max-width: 767px) {
+	.logo img,
+	.logo a {
+		display: inline-block;
+	}
+	.logo a{
+		float: right;
+		font-size: 25px;
+	}
+}
+
 
 @media only screen and (min-width: 992px) {
     .menu {
@@ -503,6 +520,11 @@ footer a:hover {
     .left-menu, .left-menu-btn {
         display: none;
     }
+}
+@media only screen and (min-width: 1200px) {
+	.btn-green {
+    margin-top: 20px;
+	}
 }
 
 @media only screen and (max-width: 1200px) {

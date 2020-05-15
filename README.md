@@ -1,2 +1,2 @@
-# home-page
-Landing with Video Background, created just for training
+# home page
+Landing with Video Background.
